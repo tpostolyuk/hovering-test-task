@@ -1,0 +1,47 @@
+.wrapper {
+  width: 240px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  font-weight: 500;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.options {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #333;
+}
+
+.option {
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.option:first-child:hover {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.option:last-child:hover {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.option:hover {
+  background-color: #e7e7e7;
+}

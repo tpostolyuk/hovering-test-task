@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0076d8;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+}
